@@ -1,0 +1,7 @@
+#!groovy
+@Library("Infrastructure") _
+
+def product = "keda"
+
+withInfraPipeline(product) {
+}
