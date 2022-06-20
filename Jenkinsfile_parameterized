@@ -1,0 +1,6 @@
+#!groovy
+
+@Library('Infrastructure') _
+
+withParameterizedInfraPipeline('keda', 'sbox', 'sbox') {
+}
