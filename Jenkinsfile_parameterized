@@ -2,5 +2,5 @@
 
 @Library('Infrastructure') _
 
-withParameterizedInfraPipeline('keda', 'sbox', 'sbox') {
+withParameterizedInfraPipeline('keda', 'sandbox', 'sandbox') {
 }
