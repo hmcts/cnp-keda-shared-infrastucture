@@ -3,7 +3,9 @@
 
 def product = "keda"
 def branchesToSync = ['demo', 'perftest', 'ithc']
+def expiresAfter = "3000-01-01"
 
 withInfraPipeline(product) {
   syncBranchesWithMaster(branchesToSync)
+  expires(expiresAfter)
 }
