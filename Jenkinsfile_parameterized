@@ -2,5 +2,8 @@
 
 @Library('Infrastructure') _
 
+def expiresAfter = "3000-01-01"
+
 withParameterizedInfraPipeline('keda', 'sandbox', 'sandbox') {
+    expires(expiresAfter)
 }
