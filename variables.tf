@@ -15,3 +15,5 @@ variable "location" {
 variable "common_tags" {
   type = map(string)
 }
+
+variable "mgmt_subscription_id" {}
